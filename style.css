@@ -38,3 +38,10 @@
         padding: 0.1875rem;
         margin-left: 0.3125rem;
 }
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
