@@ -20,6 +20,10 @@
       padding: 0 50px;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     }
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
     video {
       max-width: calc(50% - 100px);
       margin: 0 50px;
@@ -39,7 +43,10 @@
   </style>
 </head>
 <body>
-  <div class="copy">Send your URL to a friend to start a video call</div>
+  <div class="copy">Send your URL to a friend to start a video call</div><script>function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  }</script>
   <video id="localVideo" autoplay muted></video>
   <button onclick="document.getElementById('remoteVideo').requestFullscreen()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
       <i class="material-icons">fullscreen</i></button>
