@@ -14,5 +14,5 @@
                                                           1. Schedule meeting section!
                                                           2. Ability to switch between local video and remote video to be bigger
                                                           
-   Credit to Scaledrone for WebRTC tutorial (https://www.scaledrone.com/blog/webrtc-tutorial-simple-video-chat/) and to Kyle Beckwith @zippyfish for ideas (definetely check out his video chatting app here: https://zippyfish.github.io/Lightning-videoChat)
+   Credit to Scaledrone for WebRTC tutorial (https://www.scaledrone.com/blog/webrtc-tutorial-simple-video-chat/) and to Kyle Beckwith @zippyfish for ideas (definitely check out his video chatting app here: https://zippyfish.github.io/Lightning-videoChat)
                                                           
