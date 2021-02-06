@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" defer>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>VidChat</title>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      height: 100vh;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    #remoteVideo {
+      height: 100vh;
+      width: 95rem;
+      box-shadow: rgba(0, 0, 0, 0)2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+    }
+    .copy {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .button {
+      color: red;
+      position:relative;
+      margin-top:40%;
+      right:600px;
+      margin-right: 10px;
+    }
+    .button:hover {
+      color: grey;
+    }
+    .button2 {
+      color: black;
+    }
+    #localVideo {
+      width: 300px;
+      margin-left: 200px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-shadow: rgba(0, 0, 0, 0)2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+    }
+  </style>
+</head>
+<body>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay poster="Vidchat.png"></video>
+  <script src="script.js"></script>
+  <a href="/chat/endChat/index.html" class="button"><span class="material-icons">call_end</span></a>
+  <a href="https://agaudana.github.io/Chat" class="button button2" onclick="window.open('https:/agaudana.github.io/Chat', 'newwindow', 'width= 300, height=400') 
+  return false;"><span class="material-icons">chat</span></a>
+</body>
+</html>
