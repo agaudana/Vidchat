@@ -7,8 +7,9 @@
                                                            
                                                           ISSUES TO BE FIXED:
                                                           1. Fix cut call link, leads to 404 page.
-                                                          2. Change color of chat button, as it is hard to see.
-                                                          3. Make buttons more centered
+                                                          2. Fix chat link, leads to 404 page.
+                                                          3. Change color of chat button, as it is hard to see.
+                                                          4. Make buttons more centered
                                                           
                                                           FEATURES TBA! :
                                                           1. Schedule meeting section!
