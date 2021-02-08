@@ -5,11 +5,9 @@
                                                           2. Cut call and chat button
                                                           3. Full screen remote video
                                                            
-                                                          ISSUES TO BE FIXED:
-                                                          1. Fix cut call link, leads to 404 page.
-                                                          2. Fix chat link, leads to 404 page.
-                                                          3. Change color of chat button, as it is hard to see.
-                                                          4. Make buttons more centered
+                                                          ISSUES TO BE FIXED :
+                                                          1. Change color of chat button, as it is hard to see.
+                                                          2. Make buttons more centered
                                                           
                                                           FEATURES TBA! :
                                                           1. Schedule meeting section!
