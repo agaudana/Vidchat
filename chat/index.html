@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" defer>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>VidChat</title>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay poster="Vidchat.png"></video>
+  <script src="script.js"></script>
+  <a href="endChat/index.html" class="button"><span class="material-icons">call_end</span></a>
+  <a href="https://agaudana.github.io/Chat" class="button button2" onclick="window.open('https://agaudana.github.io/Chat/#' + roomHash, 'newwindow', 'width= 450, height=600') 
+  return false;"><span class="material-icons">chat</span></a>
+  <button class="button button3" onclick="meetingIDsnackbar()"><span class="material-icons">share</span></button>
+  <div id="snackbar">Your id is: <span id="roomid">. Send it to your friends so that they can join the call.</span></div> 
+</body> 
+</body>
+</html>
