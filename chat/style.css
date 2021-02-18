@@ -39,7 +39,7 @@
   }
   .button3 {
       color: black;
-      background-color: white;
+      background: none;
       border: none;
   }
   #localVideo {
