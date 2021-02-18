@@ -1,13 +1,12 @@
 
-                                                          VIDCHAT HAS BEEN RENOVATED!!!!!
+                                                          A new version of VidChat has come, which means a new readme.md! It has a few new features and bug fixes, as usual.
+                                                          VIDCHAT V1.2
                                                           Changes made:
-                                                          1. New homepage with animated background
-                                                          2. Cut call and chat button
-                                                          3. Full screen remote video
+                                                          1. New join and share ID prompts
+                                                          2. Chat redirects to the same one as the other side of the video chat
                                                            
                                                           ISSUES TO BE FIXED :
                                                           1. Change color of chat button, as it is hard to see.
-                                                          2. Make buttons more centered
                                                           
                                                           FEATURES TBA! :
                                                           1. Schedule meeting section!
